@@ -1,40 +1,49 @@
 <!DOCTYPE html>
-<!-- saved from url=(0268)https://mp4-a.udemycdn.com/2018-06-27_12-49-35-ad92057bdafda2c4cfe49e64bcd273be/original.html?vcDtbq7QYDuchfBrzkZ7Jr5_8ixrcqY9Kqb0Glkoi53T-%2DaStrO3j6iv3pg2lczlnr2WxSO06A4FFVZDIJsQP5n6DzM95nB8KMoFKVWjyqLCnctzCRaHZKnHO3MmNvcrJAo7dGKKzqqknX1YjdcU6VTly_0Dt3J3amStHNxNG98w -->
-<html lang="fr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        
-        <title>Formation GIT</title>
-        
-		
-		<link rel="stylesheet" href="./style.css">
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>FC Barcelona Animation</title>
+  <style>
+    body {
+      background-color: #152238;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
 
-	</head>
-	
+    .logo-container {
+      animation: pulse 3s infinite ease-in-out;
+    }
 
-	<body>
+    .logo {
+      width: 200px;
+      height: auto;
+      transition: transform 0.5s;
+    }
 
-		<!-- TITRE -->
-		<div id="top-banner">
-			Bienvenue dans cette formation GIT !
-		</div>
-		<!-- description -->
-		<div>
-		<h1>
-		   Ma description
-		</h1>
-		<p>
-		   I am Malek!
-		</p>
-			
-		</div>
-		<!-- recompenses -->
-		<div>
-		<h2>
-		   Mes rescompenses
-		</h2>
-		<p>
-		   en construction!
-		</p>
-			
-		</div>
-	
-</body></html>
+    @keyframes pulse {
+      0% {
+        transform: scale(1);
+        filter: drop-shadow(0 0 10px gold);
+      }
+      50% {
+        transform: scale(1.1);
+        filter: drop-shadow(0 0 20px crimson);
+      }
+      100% {
+        transform: scale(1);
+        filter: drop-shadow(0 0 10px gold);
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="logo-container">
+    <img class="logo" src="https://upload.wikimedia.org/wikipedia/en/thumb/4/47/FC_Barcelona_%28crest%29.svg/1200px-FC_Barcelona_%28crest%29.svg.png" alt="FC Barcelona Logo">
+  </div>
+
+</body>
+</html>
